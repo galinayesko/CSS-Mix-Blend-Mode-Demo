@@ -1,0 +1,28 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.box {
+	background-image: url('./picture.jpg');
+	background-size: cover;
+	width: 100%;
+	height: 100vh;
+	position: relative;
+}
+
+.text {
+	background-color:  #ae9b7d;
+	width:50%;
+	padding:10px;
+	color:#fff;
+	text-align: center;
+	font-size: 5vw;
+	font-weight: bold;
+	border-radius: 10px;
+	top:50%; left: 50%;
+	transform: translate(-50% ,-50%);
+	position: absolute;
+	mix-blend-mode: multiply;
+}
